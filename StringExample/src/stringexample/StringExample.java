@@ -31,23 +31,24 @@ public class StringExample {
              String newString = name.substring(l,3 + l);
              System.out.println(newString);
          }
-         String[] words = name.split(" ");
-         int M = words.length;
-         String firstName = words[0];
-         String lastName = words[l];
+         //String[] words = name.split(" ");
+         //int M = words.length;
+         //String firstName = words[0];
+         //String lastName = words[l];
          
          
-         System.out.printf("Вы ввели слов %d, это имя = %s и фамилия = %s \n", M, firstName, lastName);
+         //System.out.printf("Вы ввели слов %d, это имя = %s и фамилия = %s \n", M, firstName, lastName);
          
          
-         boolean result = name.contains(lastName);
-         if (result == true)
-         {
-             System.out.println("Строка ="+name+" содержит строку = "+lastName);
+         //boolean result = name.contains(lastName);
+         //if (result == true)
+         //{
+            // System.out.println("Строка ="+name+" содержит строку = "+lastName);
              
              
+              
          }
          
     }
     
-}
+
